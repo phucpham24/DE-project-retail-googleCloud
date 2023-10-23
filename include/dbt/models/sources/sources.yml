@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: retail
+    database: 
+
+    tables:
+      - name: raw_invoices
+			- name: country
