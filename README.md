@@ -23,7 +23,7 @@ The project incorporates the following key components:
 ## Project Structure
 
 Explain the structure of your project, including directories, files, and their purposes.
-'''
+```plaintext
 .
 ├── airflow_settings.yaml
 ├── dags
@@ -73,7 +73,7 @@ Explain the structure of your project, including directories, files, and their p
 ├── structure.txt
 └── tests
     └── docker-compose.override.yml
-'''
+```
 ## Data Flow
 
 Include a visual representation of your data pipeline's flow. You can use diagrams or flowcharts to make it more understandable.
