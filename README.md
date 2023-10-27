@@ -24,23 +24,55 @@ The project incorporates the following key components:
 
 Explain the structure of your project, including directories, files, and their purposes.
 
-```plaintext
-project-root/
-│
-├── data/
-│   ├── raw_data/
-│   ├── processed_data/
-│
-├── dags/
-│   ├── dag1.py
-│   ├── dag2.py
-│
-├── scripts/
-│   ├── script1.py
-│   ├── script2.py
-│
+.
+├── airflow_settings.yaml
+├── dags
+│   └── retail.py
+├── Dockerfile
+├── include
+│   ├── dataset
+│   │   └── online_retail.csv
+│   ├── dbt
+│   │   ├── cosmos_config.py
+│   │   ├── dbt_project.yml
+│   │   ├── models
+│   │   │   ├── report
+│   │   │   │   ├── report_customer_invoices.sql
+│   │   │   │   ├── report_product_invoices.sql
+│   │   │   │   └── report_year_invoices.sql
+│   │   │   ├── sources
+│   │   │   │   └── sources.yml
+│   │   │   └── transform
+│   │   │       ├── dim_customer.sql
+│   │   │       ├── dim_datetime.sql
+│   │   │       ├── dim_product.sql
+│   │   │       └── fct_invoices.sql
+│   │   ├── packages.yml
+│   │   └── profiles.yml
+│   ├── gcp
+│   │   └── service_account.json
+│   └── soda
+│       ├── check_function.py
+│       ├── checks
+│       │   ├── report
+│       │   │   ├── report_customer_invoices.yml
+│       │   │   ├── report_product_invoices.yml
+│       │   │   └── report_year_invoices.yml
+│       │   ├── sources
+│       │   │   └── raw_invoices.yml
+│       │   └── transform
+│       │       ├── dim_customer.yml
+│       │       ├── dim_datetime.yml
+│       │       ├── dim_product.yml
+│       │       └── fct_invoices.yml
+│       └── configuration.yml
+├── packages.txt
+├── plugins
 ├── README.md
-```
+├── requirements.txt
+├── structure.txt
+└── tests
+    └── docker-compose.override.yml
 
 ## Data Flow
 
