@@ -3,7 +3,7 @@
 
 ## Overview
 
-This GitHub project focuses on the development of a comprehensive data pipeline, leveraging a powerful combination of tools and technologies. The primary goal of this project is to enable efficient data processing, transformation, and storage, facilitating data-driven decision-making and analytics.
+This repository contains a comprehensive Data Pipeline solution that leverages Astro CLI, Cosmos, Apache Airflow, Google Cloud services, and Docker. It enables the efficient extraction, transformation, and loading of data into BigQuery, making it a powerful tool for data processing and analysis.
 
 ## Key Components
 
@@ -18,6 +18,8 @@ The project incorporates the following key components:
 4. **Google Cloud**: Google Cloud provides the infrastructure for data storage, offering Google Cloud Storage for raw and processed data. It ensures scalability, security, and reliability for data storage needs.
 
 5. **BigQuery**: BigQuery is utilized for data analysis and querying. It allows for the storage and retrieval of processed data, supporting advanced analytics and reporting.
+ 
+6. **Docker**: Containerization with Docker ensures portability and easy deployment of the pipeline across different environments.
 
 
 ## Project Structure
