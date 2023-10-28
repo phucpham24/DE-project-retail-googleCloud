@@ -75,12 +75,9 @@ Explain the structure of your project, including directories, files, and their p
     └── docker-compose.override.yml
 ```
 ## Data Flow
+![Alt text](image link)
+<img width="1509" alt="Screenshot 2023-07-13 at 16 41 19" src="https://github.com/phucpham24/DE-project-retail-googleCloud/assets/118487319/bae9bab5-409b-4785-b324-556aee04c4a0">
 
-Include a visual representation of your data pipeline's flow. You can use diagrams or flowcharts to make it more understandable.
-
-## Metabase Setup
-
-Provide instructions on how to set up and configure Metabase for data analysis. Include installation steps, data source connections, and initial configurations.
 
 ## Data Visualization
 
@@ -89,6 +86,4 @@ Explain how to use Metabase to create data visualizations. Describe the process 
 ## Conclusion
 
 
-Conclude your README with any additional information or future plans for the project.
 
-Feel free to customize this template according to the specifics of your project. A well-documented README helps users understand your project and encourages contributions and collaboration.
