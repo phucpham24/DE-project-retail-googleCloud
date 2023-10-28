@@ -75,8 +75,11 @@ Explain the structure of your project, including directories, files, and their p
     └── docker-compose.override.yml
 ```
 ## Data Flow
-![Alt text](image link)
 <img width="1509" alt="Screenshot 2023-07-13 at 16 41 19" src="https://github.com/phucpham24/DE-project-retail-googleCloud/assets/118487319/bae9bab5-409b-4785-b324-556aee04c4a0">
+
+
+## Relational Diagram
+![EDR](https://github.com/phucpham24/DE-project-retail-googleCloud/assets/118487319/62bb41bc-cbfd-4d92-9ec6-9c4c4786d252)
 
 
 ## Data Visualization
